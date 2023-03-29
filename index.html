@@ -17,7 +17,10 @@
             <div class="header_img">
                 <img src="img/exemple2.png" alt="Adam Pizza">
             </div>
-            <h1>Adam Pizza</h1>
+            <div class="h_para">
+                <h1>Bienvenus chez</h1>
+                <h2>ADAM Pizza</h2>
+            </div>
             <div class="header_img2">
                 <img src="img/exemple1.png" alt="Adam Pizza">
             </div>
@@ -33,44 +36,484 @@
             <li>Baguette Farcie</li>
             <li>Sandwich</li>
             <li>Libanais</li>
+            <li>Paninis</li>
+            <li>Tacos</li>
+            <li>Makloub</li>
         </ul>
 
-        <div class="content" style="overflow: hidden;">
-            <div class="pizza_content">
+        <div class="content">
+            <div class="pizza_content item_content active">
+                <div class="btn_container" onclick="animateToggle()">
+                    <div class="toggle">
+                        <div class="toggle_button"></div>
+                    </div>
+                    <div class="text">LARGE</div>
+                </div>
+                <div class="owl-carousel owl-carousel1 large">
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/pizza/Pizza margarita.png" class="card-img-top" alt="Pizza margarita">
+                        </div>
+                        <div class="card-body">
+                            <h2>Pizza margarita </h2>
+                            <p class="card-text">S.tomate + Mozzarella</p>
+                            <span class="price" style="left: 86.7%;">7dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/pizza/Neptune.webp" class="card-img-top" alt="Pizza Neptune">
+                        </div>
+                        <div class="card-body">
+                            <h2>Pizza Neptune </h2>
+                            <p class="card-text">S.tomate + Mozzarella + Thon + Olives</p>
+                            <span class="price">10dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/pizza/4 saison.png" class="card-img-top" alt="Pizza 4 saison">
+                        </div>
+                        <div class="card-body">
+                            <h2>Pizza 4 Saisons </h2>
+                            <p class="card-text">S.tomate + Mozzarella + Champignons + Poivron + Oeuf + Thon</p>
+                            <span class="price">12dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/pizza/4 fromage.jpg" class="card-img-top" alt="Pizza Fromage">
+                        </div>
+                        <div class="card-body">
+                            <h2>Pizza 4 Fromage </h2>
+                            <p class="card-text">S.tomate + Fromages + Mozzarella + Camembert + Gorgonzola</p>
+                            <span class="price">14dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/pizza/pizza chicken.png" class="card-img-top" alt="Pizza Chiken">
+                        </div>
+                        <div class="card-body">
+                            <h2>Pizza Chiken </h2>
+                            <p class="card-text">Crème Fraiche + Poulet</p>
+                            <span class="price">13dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/pizza/pizza-shawarma.png" class="card-img-top" alt="Pizza Chawarma">
+                        </div>
+                        <div class="card-body">
+                            <h2>Pizza Chawarma </h2>
+                            <p class="card-text">S.tomate + Mozzarella + Chawarma + Poivron + Oeuf</p>
+                            <span class="price media_price" style="left: 78%;">13.5dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/pizza/pizza-campione.png" class="card-img-top" alt="Pizza Campione">
+                        </div>
+                        <div class="card-body">
+                            <h2>Pizza Campione </h2>
+                            <p class="card-text">S.tomate + Fromages + Viande Haché + Champignons</p>
+                            <span class="price">14dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/pizza/calzone.jpg" class="card-img-top" alt="Pizza calzone">
+                        </div>
+                        <div class="card-body">
+                            <h2>Pizza Calzone </h2>
+                            <p class="card-text">S.tomate + Fromages + Poulet + Poivron + Oeuf</p>
+                            <span class="price media_price" style="left: 78%;">14.5dt</span>
+                        </div>  
+                    </div>
+                </div>
+                <div class="owl-carousel owl-carousel1 mini">
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/pizza/Pizza margarita.png" class="card-img-top" alt="Pizza margarita">
+                        </div>
+                        <div class="card-body">
+                            <h2>Margarita</h2>
+                            <span class="price" style="left: 86.7%;">5dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/pizza/Neptune.webp" class="card-img-top" alt="Pizza Thon">
+                        </div>
+                        <div class="card-body">
+                            <h2>Thon</h2>
+                            <span class="price" style="left: 86.7%;">6dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/pizza/4 saison.png" class="card-img-top" alt="Pizza Escalope">
+                        </div>
+                        <div class="card-body">
+                            <h2>Escalope</h2>
+                            <span class="price" style="left: 86.7%;">6dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/pizza/pizza-shawarma.png" class="card-img-top" alt="Pizza Chawarma">
+                        </div>
+                        <div class="card-body">
+                            <h2>Chawarma</h2>
+                            <span class="price" style="left: 86.7%;">6dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/pizza/pizza-shawarma.png" class="card-img-top" alt="Pizza Viande Haché">
+                        </div>
+                        <div class="card-body">
+                            <h2>Viande Haché</h2>
+                            <span class="price" style="left: 81%;">6.5dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/pizza/4 fromage.jpg" class="card-img-top" alt="Pizza 4 Fromage">
+                        </div>
+                        <div class="card-body">
+                            <h2>Pizza 4 Fromage </h2>
+                            <span class="price" style="left: 86.7%;">8dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/pizza/pizza-campione.png" class="card-img-top" alt="Pizza Campione">
+                        </div>
+                        <div class="card-body">
+                            <h2>Mixte 3 viande</h2>
+                            <span class="price" style="left: 81%;">8.5dt</span>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            <div class="bag_farcie_content item_content">
                 <div class="owl-carousel owl-carousel1">
                     <div class="card" style="width: 16rem;">
-                        <img src="img/pizza-main.png" class="card-img-top" alt="Pizza salami">
+                        <div class="img">
+                            <img src="img/Baguette Farcie/test.avif" class="card-img-top" alt="Baguette Farcie Kwika">
+                        </div>
                         <div class="card-body">
-                            <h2>Pizza salami</h2>
-                            <p class="card-text">salami - thon - formage - hressa</p>
+                            <h2>Kwika</h2>
+                            <span class="price" style="left: 86.7%;">7dt</span>
                         </div>  
                     </div>
                     <div class="card" style="width: 16rem;">
-                        <img src="img/pizza-main.png" class="card-img-top" alt="Pizza salami">
+                        <div class="img">
+                            <img src="img/Baguette Farcie/test.avif" class="card-img-top" alt="Baguette Farcie Thon">
+                        </div>
                         <div class="card-body">
-                            <h2>Pizza salami</h2>
-                            <p class="card-text">salami - thon - formage - hressa</p>
+                            <h2>Thon</h2>
+                            <span class="price">8dt</span>
                         </div>  
                     </div>
                     <div class="card" style="width: 16rem;">
-                        <img src="img/pizza-main.png" class="card-img-top" alt="Pizza salami">
+                        <div class="img">
+                            <img src="img/Baguette Farcie/test.avif" class="card-img-top" alt="Baguette Farcie Escalope">
+                        </div>
                         <div class="card-body">
-                            <h2>Pizza salami</h2>
-                            <p class="card-text">salami - thon - formage - hressa</p>
+                            <h2>Escalope</h2>
+                            <span class="price">8dt</span>
                         </div>  
                     </div>
                     <div class="card" style="width: 16rem;">
-                        <img src="img/pizza-main.png" class="card-img-top" alt="Pizza salami">
+                        <div class="img">
+                            <img src="img/Baguette Farcie/test.avif" class="card-img-top" alt="Baguette Farcie Chawarma">
+                        </div>
                         <div class="card-body">
-                            <h2>Pizza salami</h2>
-                            <p class="card-text">salami - thon - formage - hressa</p>
+                            <h2>Chawarma</h2>
+                            <span class="price">8dt</span>
                         </div>  
                     </div>
                     <div class="card" style="width: 16rem;">
-                        <img src="img/pizza-main.png" class="card-img-top" alt="Pizza salami">
+                        <div class="img">
+                            <img src="img/Baguette Farcie/test.avif" class="card-img-top" alt="Baguette Farcie Viande Hache">
+                        </div>
                         <div class="card-body">
-                            <h2>Pizza salami</h2>
-                            <p class="card-text">salami - thon - formage - hressa</p>
+                            <h2>Viande Hache</h2>
+                            <span class="price">8dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Baguette Farcie/test.avif" class="card-img-top" alt="Baguette Farcie Mixte">
+                        </div>
+                        <div class="card-body">
+                            <h2>Mixte</h2>
+                            <span class="price" style="left: 78%;">9dt</span>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            <div class="Sandwich_content item_content">
+                <div class="owl-carousel owl-carousel1">
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Sandwich/test.avif" class="card-img-top" alt="Sandwich Salami">
+                        </div>
+                        <div class="card-body">
+                            <h2>Salami</h2>
+                            <span class="price">3.5dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Sandwich/test.avif" class="card-img-top" alt="Sandwich Kwika">
+                        </div>
+                        <div class="card-body">
+                            <h2>Kwika</h2>
+                            <span class="price" style="left: 87%;">4dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Sandwich/test.avif" class="card-img-top" alt="Sandwich Thon">
+                        </div>
+                        <div class="card-body">
+                            <h2>Thon</h2>
+                            <span class="price">4.5dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Sandwich/test.avif" class="card-img-top" alt="Sandwich Escalope">
+                        </div>
+                        <div class="card-body">
+                            <h2>Escalope</h2>
+                            <span class="price" style="left: 87%;">5dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Sandwich/test.avif" class="card-img-top" alt="Sandwich Chawarma">
+                        </div>
+                        <div class="card-body">
+                            <h2>Chawarma</h2>
+                            <span class="price">5.5dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Sandwich/test.avif" class="card-img-top" alt="Sandwich Cordon Bleu">
+                        </div>
+                        <div class="card-body">
+                            <h2>Cordon Bleu</h2>
+                            <span class="price" style="left: 87%;">6dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Sandwich/test.avif" class="card-img-top" alt="Sandwich Viande Hache">
+                        </div>
+                        <div class="card-body">
+                            <h2>Viande Hache</h2>
+                            <span class="price" style="left: 87%;">5dt</span>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            <div class="Libanais_content item_content">
+                <div class="owl-carousel owl-carousel1">
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Libanais/test.jpg" class="card-img-top" alt="Libanais Salami">
+                        </div>
+                        <div class="card-body">
+                            <h2>Salami</h2>
+                            <span class="price">4.5dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Libanais/test.jpg" class="card-img-top" alt="Libanais Kwika">
+                        </div>
+                        <div class="card-body">
+                            <h2>Kwika</h2>
+                            <span class="price">4.5dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Libanais/test.jpg" class="card-img-top" alt="Libanais Thon">
+                        </div>
+                        <div class="card-body">
+                            <h2>Thon</h2>
+                            <span class="price" style="left: 87%;">5dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Libanais/test.jpg" class="card-img-top" alt="Libanais Escalope">
+                        </div>
+                        <div class="card-body">
+                            <h2>Escalope</h2>
+                            <span class="price" style="left: 87%;">6dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Libanais/test.jpg" class="card-img-top" alt="Libanais Chawarma">
+                        </div>
+                        <div class="card-body">
+                            <h2>Chawarma</h2>
+                            <span class="price" style="left: 87%;">6dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Libanais/test.jpg" class="card-img-top" alt="Libanais Cordon Bleu">
+                        </div>
+                        <div class="card-body">
+                            <h2>Cordon Bleu</h2>
+                            <span class="price" style="left: 87%;">7dt</span>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            <div class="Paninis_content item_content">
+                <div class="owl-carousel owl-carousel1">
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Paninis/test.jpg" class="card-img-top" alt="Paninis Thon">
+                        </div>
+                        <div class="card-body">
+                            <h2>Thon</h2>
+                            <span class="price" style="left: 87%;">4dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Paninis/test.jpg" class="card-img-top" alt="Paninis Escalope">
+                        </div>
+                        <div class="card-body">
+                            <h2>Escalope</h2>
+                            <span class="price" style="left: 87%;">4dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Paninis/test.jpg" class="card-img-top" alt="Paninis Chawarma">
+                        </div>
+                        <div class="card-body">
+                            <h2>Chawarma</h2>
+                            <span class="price" style="left: 87%;">4dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Paninis/test.jpg" class="card-img-top" alt="Paninis Viande Hache">
+                        </div>
+                        <div class="card-body">
+                            <h2>Viande Hache</h2>
+                            <span class="price" style="left: 87%;">4dt</span>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            <div class="Tacos_content item_content">
+                <div class="owl-carousel owl-carousel1">
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Tacos/test.jpg" class="card-img-top" alt="Tacos Cordon Bleu">
+                        </div>
+                        <div class="card-body">
+                            <h2>Cordon Bleu</h2>
+                            <span class="price" style="left: 87%;">7dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Tacos/test.jpg" class="card-img-top" alt="Tacos Escalope">
+                        </div>
+                        <div class="card-body">
+                            <h2>Escalope</h2>
+                            <span class="price" style="left: 87%;">7dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Tacos/test.jpg" class="card-img-top" alt="Tacos Chawarma">
+                        </div>
+                        <div class="card-body">
+                            <h2>Chawarma</h2>
+                            <span class="price" style="left: 87%;">7dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Tacos/test.jpg" class="card-img-top" alt="Tacos Viande Hache">
+                        </div>
+                        <div class="card-body">
+                            <h2>Viande Hache</h2>
+                            <span class="price" style="left: 87%;">7dt</span>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            <div class="Makloub_content item_content">
+                <div class="owl-carousel owl-carousel1">
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Makloub/test.jpg" class="card-img-top" alt="Makloub Salami">
+                        </div>
+                        <div class="card-body">
+                            <h2>Salami</h2>
+                            <span class="price">5.5dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Makloub/test.jpg" class="card-img-top" alt="Makloub Kwika">
+                        </div>
+                        <div class="card-body">
+                            <h2>Kwika</h2>
+                            <span class="price">5.5dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Makloub/test.jpg" class="card-img-top" alt="Makloub Thon">
+                        </div>
+                        <div class="card-body">
+                            <h2>Thon</h2>
+                            <span class="price">6.5dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Makloub/test.jpg" class="card-img-top" alt="Makloub Escalope">
+                        </div>
+                        <div class="card-body">
+                            <h2>Escalope</h2>
+                            <span class="price">6.5dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Makloub/test.jpg" class="card-img-top" alt="Makloub Chawarma">
+                        </div>
+                        <div class="card-body">
+                            <h2>Chawarma</h2>
+                            <span class="price" style="left: 87%;">7dt</span>
+                        </div>  
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="img">
+                            <img src="img/Makloub/test.jpg" class="card-img-top" alt="Makloub Cordon Bleu">
+                        </div>
+                        <div class="card-body">
+                            <h2>Cordon Bleu</h2>
+                            <span class="price" style="left: 87%;">7dt</span>
                         </div>  
                     </div>
                 </div>
@@ -78,11 +521,11 @@
         </div>
     </main>
     <nav class="wrapper" style="overflow: hidden;">
-        <h2 class="zig-zag-bottom zig-zag-top title">Contact</h2>
+        <h2 class="zig-zag-bottom zig-zag-top title">Vous êtes les bienvenus</h2>
         <div class="img">
             <img src="img/pizza-main.png" alt="Pizza Main">
         </div>
-        <div class="owl-carousel owl-carousel2">
+        <!-- <div class="owl-carousel owl-carousel2">
             <div class="img">
                 <img src="photo/ELDEN RING™ 04_03_2023 14_26_35.png" alt="photo1">
             </div>
@@ -98,17 +541,19 @@
             <div class="img">
                 <img src="photo/ELDEN RING™ 04_03_2023 14_45_13.png" alt="photo5">
             </div>
-        </div>
+        </div> -->
     </nav>
     <footer class="wrapper" style="overflow: hidden;">
-        <h2 class="zig-zag-bottom zig-zag-top title">Vous êtes les bienvenus</h2>
+        <h2 class="zig-zag-bottom zig-zag-top title">Contact</h2>
         <div class="reach_us">
             <div class="add">
                 <ul>
                     <li>Addresse: <span>SOUIHEL, Zarzis 4173</span></li>
                     <li>Services disponibles: <span>Repas sur place · Service de drive</span></li>
-                    <li>Horaires: <span>Lundi, Mardi, Jeudi, Vendredi, Samedi, Dimanche</span></li>
-                    <li>Téléphone: <span><a href="#">98 203 961</a></span></li>
+                    <li>Horaires: <span>6j/sem - Mercredi ferme</span><pre style="margin: 0;">
+    <span>de 11H00 a 14H30 - 16H00 a 00H00</span></pre>
+                    </li>
+                    <li><button><a href="tel:+21698203961">Passer un commande</a></button></li>
                 </ul>
             </div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12961.48036407497!2d11.108990158751487!3d33.53514421338719!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13aaef2f7ed88a89%3A0x74ad16ba9b98f818!2sADAM%20PIZZA!5e0!3m2!1sen!2stn!4v1679067435516!5m2!1sen!2stn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
