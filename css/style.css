@@ -28,7 +28,7 @@ header::after {
     z-index: 0;
     background-size: cover;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     header::after {
         width: 100vw;
         height: 478px;
@@ -43,7 +43,7 @@ header .header {
     width: 56vw;
     margin: 0 auto;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     header .header {
         width: 90vw;
     }
@@ -85,7 +85,7 @@ header .h_para::before {
     backface-visibility: hidden;
     animation: cp_h_para_before 0.8s 3s both;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     header .h_para::before {
         width: 150px;
         height: 150px;
@@ -134,7 +134,7 @@ header h2 {
     overflow: hidden;
     animation: controle_width_3 1s 1.5s steps(10) both;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     header h2 {
         font-size: 23px;
     }
@@ -153,7 +153,7 @@ header div.header_img2 {
     position: relative;
     z-index: 6;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     header div.header_img,
     header div.header_img2 {
         height: 7vh !important;
@@ -164,7 +164,7 @@ header div.header_img2 {
 header div.header_img {
     animation: controle_position_left 1s 3s both;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     header div.header_img {
         animation: controle_position_left_media 1s 3s both;
     }
@@ -192,7 +192,7 @@ header div.header_img {
 header div.header_img2 {
     animation: controle_position_right 1s 3s both;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     header div.header_img2 {
         animation: controle_position_right_media 1s 3s both;
     }
@@ -222,7 +222,7 @@ header div.header_img2 img {
     width: 100%;
     border-radius: 50%;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     header div.header_img img,
     header div.header_img2 img {
         width: 44px;
@@ -239,7 +239,7 @@ header div.img img {
     top: 260px;
     animation: controle_position_pizza 1s 3s both;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     header div.img img {
         position: relative;
         width: 350px;
@@ -270,7 +270,7 @@ header div.img img {
     position: relative;
     transition: 0.5s;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     #d-wrapper {
         max-height: 520px;
     }
@@ -307,11 +307,11 @@ header div.img img {
     top: 19px;
     left: 0px;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     .wrapper .zig-zag-bottom:after {
         background-size: 20px 31px;
         height: 12px;
-        top: 7px;
+        top: 43%;
     }
 }
 .wrapper .title {
@@ -324,7 +324,7 @@ header div.img img {
     background: #e0e0e0;
     font-size: x-large;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     .wrapper .title {
         height: 40px;
         font-size: 19px;
@@ -335,7 +335,7 @@ header div.img img {
     position: relative;
     margin-bottom: 7px;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     .wrapper .btn_container {
         margin-bottom: 22px;
     }
@@ -373,17 +373,17 @@ header div.img img {
     font-size: 13px;
     cursor: pointer;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     .wrapper .btn_container .text {
-        left: 44.7vw;
+        left: 48%;
     }
 }
 .wrapper .btn_container .toggle.active + .text {
     left: 48vw;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     .wrapper .btn_container .toggle.active + .text {
-        left: 40vw;
+        left: 42%;
     }
 }
 .wrapper > .img {
@@ -393,7 +393,7 @@ header div.img img {
     height: 56vh;
     top: -68vh;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     .wrapper > .img {
         top: -175px
     }
@@ -401,7 +401,7 @@ header div.img img {
 .wrapper > .img img {
     position: absolute;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     .wrapper > .img img {
         width: 350px;
     }
@@ -415,7 +415,7 @@ header div.img img {
     align-items: center;
     justify-content: space-between;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     #d-wrapper .filter {
         width: 350px;
         height: 78px;
@@ -430,7 +430,7 @@ header div.img img {
     border-radius: 10px;
     cursor: pointer;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     #d-wrapper .filter li {
         padding: 0.5% 3.5%;
         border-radius: 6px;
@@ -445,12 +445,13 @@ header div.img img {
     height: 397px;
     background-color: white;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     .content {
         height: 338px;
         width: 350px;
         overflow: hidden;
         margin: auto;
+        left: -3px;
     }
 }
 .item_content {
@@ -469,7 +470,7 @@ header div.img img {
     cursor: pointer;
     height: 338px;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     .item_content .card {
         height: 244px;
         width: 9.5rem !important;
@@ -485,7 +486,7 @@ header div.img img {
     border-right: 10px solid transparent;
     border-bottom: 10px solid #e0e0e0;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     .item_content .card::before {
         top: 87.2%;
     }
@@ -494,7 +495,7 @@ header div.img img {
     width: 100%;
     height: 177px;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     .item_content .card .img {
         width: 80%;
         height: 130px;
@@ -519,7 +520,7 @@ header div.img img {
     padding-bottom: 17px;
     text-align: center;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     #d-wrapper .card-body h2 {
         font-size: 16px;;
         box-shadow: 2px 2px 0 0px #ddd;
@@ -528,7 +529,7 @@ header div.img img {
 #d-wrapper .card-body p {
     font-weight: 400;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     #d-wrapper .card-body p {
         font-size: 12px;
     }
@@ -541,7 +542,7 @@ header div.img img {
     padding: 4px 8px;
     font-weight: 800;
 } 
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     #d-wrapper .card-body .price {
         left: 82%;
         top: 90.5%;
@@ -550,7 +551,7 @@ header div.img img {
         font-size: smaller;
     }
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     #d-wrapper .card-body .media_price {
         left: 76% !important;
     }
@@ -570,7 +571,7 @@ header div.img img {
     overflow: hidden;
     background-color: #fff191;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     #d-wrapper .owl-next {
         top: 27%;
         left: 94%;
@@ -591,7 +592,7 @@ header div.img img {
     color: #eeb108;
     font-weight: 700;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     #d-wrapper .owl-next span {
         height: 60px;
         width: 60px;
@@ -609,7 +610,7 @@ header div.img img {
     border-radius: 50%;
     z-index: 0;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     #d-wrapper .owl-prev {
         top: 27%;
         left: -6%;
@@ -630,7 +631,7 @@ header div.img img {
     color: #eeb108;
     font-weight: 700;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     #d-wrapper .owl-prev span {
         height: 60px;
         width: 60px;
@@ -641,7 +642,7 @@ header div.img img {
 #d-wrapper .owl-dots {
     display: none;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     #d-wrapper .owl-dots {
         display: block;
         position: relative;
@@ -649,7 +650,7 @@ header div.img img {
         text-align: center;
     }
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     #d-wrapper .owl-dots button {
         border: 1px solid rgb(248, 231, 76);
         width: 12px;
@@ -658,12 +659,12 @@ header div.img img {
         margin-right: 7px;
     }
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     #d-wrapper .owl-dots button.active {
         background-color: rgb(248, 231, 76);
     }
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     #d-wrapper .owl-nav {
         display: none;
     }
@@ -672,7 +673,7 @@ header div.img img {
 .pizza_content .mini .card {
     height: 255px;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     .pizza_content .mini .card {
         height: 180px;
     }
@@ -680,7 +681,7 @@ header div.img img {
 .pizza_content .mini .card::before {
     top: 84.2%;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     .pizza_content .mini .card::before {
         top: 81.2% !important;
     }
@@ -690,7 +691,7 @@ header div.img img {
     margin: auto;
     height: 147px;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     .pizza_content .mini .card .img {
         height: 78px;
     }
@@ -698,13 +699,13 @@ header div.img img {
 .pizza_content .mini .card span {
     top: 88%;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     .pizza_content .mini .card span {
         left: 84.7% !important;
         top: 86.5% !important;
     }
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     .pizza_content .mini > div:nth-child(5) span,
     .pizza_content .mini .card:nth-child(7) span {
         left: 79.7% !important;
@@ -761,7 +762,7 @@ header div.img img {
 .Sandwich_content .card {
     height: 255px
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     .bag_farcie_content .card,
     .Libanais_content .card,
     .Paninis_content .card,
@@ -779,7 +780,7 @@ header div.img img {
     content: '';
     top: 84.5%;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     .bag_farcie_content .card::before,
     .Libanais_content .card::before,
     .Paninis_content .card::before,
@@ -797,7 +798,7 @@ header div.img img {
     width: 100%;
     height: 149px
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     .bag_farcie_content .card .img,
     .Libanais_content .card .img,
     .Paninis_content .card .img,
@@ -829,7 +830,7 @@ header div.img img {
     padding: 4px 8px;
     font-weight: 800;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     .bag_farcie_content .card-body .price,
     .Libanais_content .card-body .price,
     .Paninis_content .card-body .price,
@@ -840,7 +841,7 @@ header div.img img {
         top: 87.5% !important;
     }
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     .bag_farcie_content .card-body .price2,
     .Libanais_content .card-body .price2,
     .Paninis_content .card-body .price2,
@@ -896,7 +897,7 @@ footer .reach_us {
     box-shadow: 0 0 7px #b6b6b6;
     height: 300px;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     footer .reach_us {
         margin: 6% auto;
         width: 86vw;
@@ -908,7 +909,7 @@ footer .reach_us iframe {
     height: 100%;
     flex: 1;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     footer .reach_us iframe {
         height: 100%;
         flex: 1;
@@ -922,7 +923,7 @@ footer .reach_us div {
     justify-content: center;
     align-items: center;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     footer .reach_us div.add {
         padding-right: 5px;
     }
@@ -934,7 +935,7 @@ footer ul li {
     font-weight: 700;
     font-size: larger;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     footer ul li {
         font-weight: 500;
         font-size: medium;
@@ -945,7 +946,7 @@ footer ul span {
     font-family: cursive;
     font-size: initial;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     footer ul span {
         font-weight: 200;
         font-family: sans-serif;
@@ -987,7 +988,7 @@ footer .last_part {
     align-items: center;
     justify-content: space-between;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     footer .last_part {
         display: block;
     }
@@ -996,7 +997,7 @@ footer .last_part p span {
     font-weight: 700;
     color: #fcc407;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     footer .last_part p {
         text-align: center;
     }
@@ -1010,7 +1011,7 @@ footer .last_part .icon {
     align-items: center;
     justify-content: space-between;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     footer .last_part .icon {
         margin: 0% auto 4%;
     }
