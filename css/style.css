@@ -311,7 +311,7 @@ header div.img img {
     .wrapper .zig-zag-bottom:after {
         background-size: 20px 31px;
         height: 12px;
-        top: 43%;
+        top: 40%;
     }
 }
 .wrapper .title {
@@ -476,21 +476,6 @@ header div.img img {
         width: 9.5rem !important;
     }
 }
-.item_content .card::before {
-    content: '';
-    top: 88.2%;
-    position: relative;
-    left: 100%;
-    height: 0;
-    width: 0;
-    border-right: 10px solid transparent;
-    border-bottom: 10px solid #e0e0e0;
-}
-@media (max-width: 480px) {
-    .item_content .card::before {
-        top: 87.2%;
-    }
-}
 .item_content .card .img {
     width: 100%;
     height: 177px;
@@ -544,16 +529,12 @@ header div.img img {
 } 
 @media (max-width: 480px) {
     #d-wrapper .card-body .price {
-        left: 82%;
+        right: -1px;
+        left: auto;
         top: 90.5%;
         padding: 2px 6px;
         font-weight: 600;
         font-size: smaller;
-    }
-}
-@media (max-width: 480px) {
-    #d-wrapper .card-body .media_price {
-        left: 76% !important;
     }
 }
 #d-wrapper .owl-stage {
@@ -678,14 +659,6 @@ header div.img img {
         height: 180px;
     }
 }
-.pizza_content .mini .card::before {
-    top: 84.2%;
-}
-@media (max-width: 480px) {
-    .pizza_content .mini .card::before {
-        top: 81.2% !important;
-    }
-}
 .pizza_content .mini .card .img {
     width: 80%;
     margin: auto;
@@ -700,15 +673,8 @@ header div.img img {
     top: 88%;
 }
 @media (max-width: 480px) {
-    .pizza_content .mini .card span {
-        left: 84.7% !important;
-        top: 86.5% !important;
-    }
-}
-@media (max-width: 480px) {
-    .pizza_content .mini > div:nth-child(5) span,
-    .pizza_content .mini .card:nth-child(7) span {
-        left: 79.7% !important;
+    .pizza_content .mini .card .price {
+        top: 87.5% !important;
     }
 }
 .pizza_content .mini .owl-next {
@@ -725,10 +691,6 @@ header div.img img {
     border-color: rgb(248, 231, 76);
     cursor: pointer;
     height: 259px;
-}
-.bag_farcie_content .card::before {
-    content: '';
-    top: 84.5%;
 }
 .bag_farcie_content .card .img {
     width: 100%;
@@ -770,24 +732,6 @@ header div.img img {
     .Makloub_content .card,
     .Sandwich_content .card {
         height: 188px;
-    }
-}
-.Libanais_content .card::before,
-.Paninis_content .card::before,
-.Tacos_content .card::before,
-.Makloub_content .card::before,
-.Sandwich_content .card::before {
-    content: '';
-    top: 84.5%;
-}
-@media (max-width: 480px) {
-    .bag_farcie_content .card::before,
-    .Libanais_content .card::before,
-    .Paninis_content .card::before,
-    .Tacos_content .card::before,
-    .Makloub_content .card::before,
-    .Sandwich_content .card::before {
-        top: 82.5% !important;
     }
 }
 .Libanais_content .card .img,
@@ -837,18 +781,9 @@ header div.img img {
     .Tacos_content .card-body .price,
     .Makloub_content .card-body .price,
     .Sandwich_content .card-body .price {
-        left: 84.7% !important;
+        right: -1px;
+        left: auto;
         top: 87.5% !important;
-    }
-}
-@media (max-width: 480px) {
-    .bag_farcie_content .card-body .price2,
-    .Libanais_content .card-body .price2,
-    .Paninis_content .card-body .price2,
-    .Tacos_content .card-body .price2,
-    .Makloub_content .card-body .price2,
-    .Sandwich_content .card-body .price2 {
-        left: 77.7% !important;
     }
 }
 .Libanais_content .owl-next,
