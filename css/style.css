@@ -243,7 +243,7 @@ header div.img img {
     header div.img img {
         position: relative;
         width: 350px;
-        top: 175px !important;
+        top: 215px !important;
         animation: controle_position_pizza_media 1s 3s both;
     }
 }
