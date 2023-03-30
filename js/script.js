@@ -6,11 +6,11 @@ $('.owl-carousel1').owlCarousel({
     responsive:{
         0:{
             items:2,
-            margin:7,
+            margin:3,
         },
         600:{
             items:2,
-            margin:7,
+            margin:3,
         },
         1000:{
             items:4
@@ -45,12 +45,10 @@ let toggle = document.querySelector(".btn_container .toggle")
 let large = document.querySelector(".pizza_content .large");
 let mini = document.querySelector(".pizza_content .mini");
 function animateToggle() {
-    toggle.classList.toggle("active"); 
-    large.style.transition = ".5s";
-    mini.style.transition = ".5s";
+    toggle.classList.toggle("active");
     if(toggle.classList.contains("active")) {
         large.style.top = "360px";
-        mini.style.top = "-330px";
+        mini.style.top = "-380px";
         toggle.parentElement.lastElementChild.textContent = "MINI"
     } else {
         large.style.top = "0px";
