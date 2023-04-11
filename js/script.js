@@ -17,28 +17,6 @@ $('.owl-carousel1').owlCarousel({
         }
     }
 })
-var owl = $('.owl-carousel2');
-owl.owlCarousel({
-    items:1,
-    center: true,
-    loop:true,
-    lazyLoad:true,
-    margin:90,
-    autoplay:true,
-    autoplayTimeout:3000,
-    autoplayHoverPause:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:1
-        }
-    }
-});
 
 // Start Menu
 let toggle = document.querySelector(".btn_container .toggle")
@@ -78,7 +56,3 @@ btn_items.forEach(function(ele,i) {
     }
 })
 //End Menu
-
-// edit media mini
-let divMini = document.querySelectorAll(".pizza_content .mini .card");
-console.log(divMini);
