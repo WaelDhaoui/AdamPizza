@@ -56,3 +56,8 @@ btn_items.forEach(function(ele,i) {
     }
 })
 //End Menu
+// qr code
+let qr = document.querySelector(".qr")
+qr.onclick = function() {
+    qr.classList.toggle("active")
+}

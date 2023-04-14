@@ -11,6 +11,32 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .qr {
+            width: 0%;
+            position: absolute;
+            z-index: 50;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: controle_position_qr_code 1s 3s both;
+        }
+        .qr.active {
+            width: 74% !important;
+            box-shadow: 0 0 0px 100px #0000006b;
+        }
+        .qr img {
+            width: 100%;
+            height: 100%;
+        }
+        @keyframes controle_position_qr_code {
+            from{
+                width: 0%;
+            }to{
+                width: 29%;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -25,6 +51,9 @@
             <div class="header_img2">
                 <img src="img/exemple1.png" alt="Adam Pizza">
             </div>
+        </div>
+        <div class="qr">
+            <img src="./code_qr.png" alt="code qr">
         </div>
         <div class="img">
             <img src="img/pizza-main.png" alt="Pizza Main">
@@ -53,7 +82,7 @@
                 <div class="owl-carousel owl-carousel1 large">
                     <div class="card" style="width: 16rem;">
                         <div class="img">
-                            <img src="img/pizza/Pizza margarita.png" class="card-img-top" alt="Pizza margarita">
+                            <img src="img/pizza/Pizza margarita .png" class="card-img-top" alt="Pizza margarita">
                         </div>
                         <div class="card-body">
                             <h2>Margarita </h2>
@@ -63,7 +92,7 @@
                     </div>
                     <div class="card" style="width: 16rem;">
                         <div class="img">
-                            <img src="img/pizza/Neptune.webp" class="card-img-top" alt="Pizza Neptune">
+                            <img src="img/pizza/Neptune.png" class="card-img-top" alt="Pizza Neptune">
                         </div>
                         <div class="card-body">
                             <h2>Neptune </h2>
@@ -135,7 +164,7 @@
                 <div class="owl-carousel owl-carousel1 mini">
                     <div class="card" style="width: 16rem;">
                         <div class="img">
-                            <img src="img/pizza/Pizza margarita.png" class="card-img-top" alt="Pizza margarita">
+                            <img src="img/pizza/Pizza margarita .png" class="card-img-top" alt="Pizza margarita">
                         </div>
                         <div class="card-body">
                             <h2>Margarita</h2>
@@ -144,20 +173,20 @@
                     </div>
                     <div class="card" style="width: 16rem;">
                         <div class="img">
-                            <img src="img/pizza/Neptune.webp" class="card-img-top" alt="Pizza Thon">
+                            <img src="img/pizza-main.png" class="card-img-top" alt="Pizza Thon">
                         </div>
                         <div class="card-body">
                             <h2>Thon</h2>
-                            <span class="price" style="left: auto";">6dt</span>
+                            <span class="price" style="left: auto">6dt</span>
                         </div>  
                     </div>
                     <div class="card" style="width: 16rem;">
                         <div class="img">
-                            <img style="transform: scale(1.2);top: 20%;"src="img/pizza/4 saison.png" class="card-img-top" alt="Pizza Escalope">
+                            <img style="transform: scale(0.8);top: -7%;"src="img/pizza/Pizza margarita .png" class="card-img-top" alt="Pizza Escalope">
                         </div>
                         <div class="card-body">
                             <h2>Escalope</h2>
-                            <span class="price" style="left: auto";">6dt</span>
+                            <span class="price" style="left: auto">6dt</span>
                         </div>  
                     </div>
                     <div class="card" style="width: 16rem;">
